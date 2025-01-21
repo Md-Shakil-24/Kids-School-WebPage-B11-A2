@@ -141,9 +141,9 @@ body{
     align-items: center;
     margin: 0px 60px 60px 60px;
     padding: 0px;
-   
-
 }
+
+
 
 .banner div button{
     background-color: black;
@@ -154,8 +154,8 @@ body{
     font-size: 0.9rem;
     cursor: pointer;
     margin: 0px;
-
 }
+
 
 
 .banner div button:hover{
@@ -164,15 +164,18 @@ body{
 }
 
 
+
 .banner div h2{
     font-size: 3.5rem;
     margin: 0px;
 }
 
 
+
 .span1{
     color: #FEA301;
 }
+
 
 
 .span2{
@@ -256,6 +259,43 @@ body{
             display: inline;
         }
 
+
+
+        /* banner section  */
+
+
+       
+.banner{
+    
+    flex-direction: column-reverse;
+    margin: 0px 15px 40px 15px;
+}
+
+.banner div img{
+    width: 100%;
+}
+
+.banner .left{
+    text-align: center;
+    width: 100%;
+
+}
+
+.banner div h2{
+    font-size: 2rem;
+    margin: 0px;
+}
+
+
+.banner div p{
+    font-size: 14px;
+    margin: 15px 0px 20px 0px;
+}
+
+.banner div p br{
+    display: none;
+}
+        
 
 
 
