@@ -7,7 +7,6 @@
     font-weight: <weight>;
     font-style: normal;
     margin: 0px auto;
-    /* padding: 0px 60px; */
     max-width: 1300px;
   }
  
@@ -21,6 +20,7 @@ body{
 
 
   /* nav section  */
+
 
 
   nav{
@@ -113,7 +113,7 @@ body{
     background-color: #FEA301;
     padding: 10px 45px;
     border: 2px solid white;
-    border-radius: 5px;
+    border-radius: 10px;
     color: white;
     font-size: 18px;
     cursor: pointer;
@@ -132,7 +132,10 @@ body{
 }
 
 
+
 /* banner section  */
+
+
 
 .banner{
     display: flex;
@@ -194,6 +197,7 @@ body{
 /* card section  */
 
 
+
 .quicksand-2 {
     font-family: "Quicksand", serif;
     font-optical-sizing: auto;
@@ -252,7 +256,6 @@ body{
 .card div a h6{
     font-size: 16px;
     display: inline;
-    /* margin: 45px 0px 25px 0px; */
 }
 
 
@@ -345,6 +348,8 @@ body{
 
 /* story section  */
 
+
+
 .story .grid .new3{
     display: none;
 }
@@ -352,6 +357,7 @@ body{
 .story {
     
     margin: 0px 60px 0px 60px;
+    padding: 0px 0px 50px 0px;
 }
 
 
@@ -425,7 +431,10 @@ body{
 }
 
 
+
 /* little story  */
+
+
 
 .new2 .inline h5{
     background-color: #95B226;
@@ -446,31 +455,116 @@ body{
 }
 
 .inline-up h4{
-    margin-top: 35px;
-    
+    margin-top: 35px;  
 }
 
 
 
+/* footer section  */
 
 
 
 
+.sky{
+    background-color: #01ACFD;
+}
+
+
+.last5{
+    margin: 0px 60px 0px 60px;
+    color: white;
+}
 
 
 
+/* fd1 section  */
 
 
 
+.fd1 .fd11{
+    display: flex;
+    gap: 2px;
+}
+
+.fd11 img{
+    width: 86px;
+    height: 96px;
+}
+
+.fd11 h2{
+    font-size: 41px;
+    margin: 0px;
+}
+
+.fd1 p{
+    font-size: 20px;
+    margin-left: 7px;
+}
+
+.fd1{
+    display: flex;
+    flex-direction: column;
+}
 
 
 
+/* fd2 section  */
 
 
 
+.fd2{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px;
+}
+
+.fd2 h5{
+    font-size: 24px;
+    margin: 10px 0px 20px 0px;
+}
+
+.fd2 a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin: 5px 0px;
+}
 
 
 
+/* fd3 section  */
+
+
+
+.fd3{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 12px 0px 0px;
+}
+
+
+.fd3 h4{
+    font-size: 26px;
+    margin: 5px 0px 20px 0px;
+}
+
+
+.fd3 .fd33{
+    display: flex;
+    gap: 10px;
+}
+
+
+.last5{
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+    padding: 100px 0px;
+}
+
+
+
+/* margin corection section  */
 
 
 
@@ -499,7 +593,7 @@ body{
 
 
 
-  @media (max-width: 576px) {
+@media (max-width: 576px) {
 
 
         body{
@@ -577,6 +671,8 @@ body{
 
 /* card section  */
 
+
+
 .card img{
     width: 120px;
     height: 132px;
@@ -614,6 +710,8 @@ body{
 
 
 /* story section  */
+
+
 
 .story .grid .new3{
     display: grid ;
@@ -675,16 +773,67 @@ body{
 }
 
 
+/* footer section  */
+
+.last5{
+    margin: 0px 15px 0px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px 0px 60px 0px;
+}
+
+/* fd1 section  */
+
+.fd1 .fd11{
+    gap: 1px;
+}
+
+.fd11 img{
+    width: 75px;
+    height: 85px;
+}
+
+.fd11 h2{
+    font-size: 36px;
+    margin: 0px;
+}
+
+.fd1 p{
+    font-size: 16px;
+    margin-left: 7px;
+}
 
 
+/* fd2 section  */
+
+.fd2 h5{
+    font-size: 20.4px;
+    margin: 10px 0px 13px 7px;
+}
+
+.fd2 a{
+    font-size: 17px;
+    margin: 5px 0px 5px 7px;
+}
 
 
-     
-        
+/* fd3 section  */
 
-
+.fd3{
     
-  }
+    margin: 10px 12px 0px 7px;
+}
+
+
+.fd3 h4{
+    font-size: 22px;
+    margin: 5px 0px 20px 0px;
+}
+   
+
+
+}
 
 
 
