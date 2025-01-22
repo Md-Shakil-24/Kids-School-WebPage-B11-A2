@@ -545,7 +545,7 @@ body{
 
 .fd3 h4{
     font-size: 26px;
-    margin: 5px 0px 20px 0px;
+    margin: 0px 0px 20px 0px;
 }
 
 
@@ -559,8 +559,29 @@ body{
     display: flex;
     gap: 100px;
     justify-content: space-between;
-    padding: 100px 0px;
+    padding: 100px 0px 50px 0px;
 }
+
+
+/* marquee section  */
+
+
+.last6{
+    background-color: #d5eefa;
+    padding: 20px 0px 21px 0px;
+}
+
+marquee{
+    font-size: 24px;
+    font-weight: 700;
+    color:#01ACFD;
+}
+
+marquee span{
+    color: #ff9500;
+    }
+
+
 
 
 
@@ -775,12 +796,13 @@ body{
 
 /* footer section  */
 
+
 .last5{
     margin: 0px 15px 0px 15px;
     display: flex;
     flex-direction: column;
     gap: 20px;
-    padding: 50px 0px 60px 0px;
+    padding: 50px 0px 40px 0px;
 }
 
 /* fd1 section  */
@@ -807,6 +829,7 @@ body{
 
 /* fd2 section  */
 
+
 .fd2 h5{
     font-size: 20.4px;
     margin: 10px 0px 13px 7px;
@@ -820,6 +843,7 @@ body{
 
 /* fd3 section  */
 
+
 .fd3{
     
     margin: 10px 12px 0px 7px;
@@ -828,10 +852,28 @@ body{
 
 .fd3 h4{
     font-size: 22px;
-    margin: 5px 0px 20px 0px;
+    margin: 10px 0px 20px 0px;
 }
    
 
+
+/* marquee section  */
+
+
+.last6{
+    background-color: #d5eefa;
+    padding: 18px 0px 19px 0px;
+}
+
+marquee{
+    font-size: 18px;
+    font-weight: 700;
+    color:#01ACFD;
+}
+
+marquee span{
+color: #ff9500;
+}
 
 }
 
